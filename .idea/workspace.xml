@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcab2157-77f5-4222-ad85-f0e855877fc5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/commons/AbsCommonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extensions/UIExtensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/WebDriverModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/CourseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/CoursePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainPage_Test.java" afterDir="false" />
+    <list default="true" id="bcab2157-77f5-4222-ad85-f0e855877fc5" name="Changes" comment="added driver and first test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/commons/AbsCommonObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/CourseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/CourseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPage_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Func_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +38,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.Func_Test.executor": "Debug",
+    "JUnit.Func_Test.mainPageTest.executor": "Run",
     "JUnit.MainPage_Test.executor": "Run",
     "JUnit.MainPage_Test.mainPageTest.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/lilittevosyan/Documents/dev/otus-lilit/hw1/otus-hw1/src/main/java/org/example",
@@ -62,20 +57,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPage_Test">
-    <configuration name="MainPage_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Func_Test.mainPageTest">
+    <configuration name="Func_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="otus-hw1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage_Test" />
+      <option name="MAIN_CLASS_NAME" value="Func_Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage_Test.mainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Func_Test.mainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="otus-hw1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage_Test" />
+      <option name="MAIN_CLASS_NAME" value="Func_Test" />
       <option name="METHOD_NAME" value="mainPageTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -84,8 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPage_Test" />
-        <item itemvalue="JUnit.MainPage_Test.mainPageTest" />
+        <item itemvalue="JUnit.Func_Test.mainPageTest" />
+        <item itemvalue="JUnit.Func_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -98,25 +93,56 @@
       <option name="presentableId" value="Default" />
       <updated>1756120259527</updated>
     </task>
+    <task id="LOCAL-00001" summary="added driver and first test case">
+      <option name="closed" value="true" />
+      <created>1756123569532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756123569532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added driver and first test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added driver and first test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/MainPage_Test.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Func_Test.java</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/MainPage_Test.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/test/java/Func_Test.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/MainPage_Test.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/Func_Test.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Func_Test.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java</url>
+          <line>127</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
