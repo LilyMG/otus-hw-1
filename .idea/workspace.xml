@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcab2157-77f5-4222-ad85-f0e855877fc5" name="Changes" comment="added driver and first test case">
+    <list default="true" id="bcab2157-77f5-4222-ad85-f0e855877fc5" name="Changes" comment="added first test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/commons/AbsCommonObject.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/CourseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/CourseData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainPage_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Func_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Func_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Func_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,8 @@
   "keyToString": {
     "JUnit.Func_Test.executor": "Debug",
     "JUnit.Func_Test.mainPageTest.executor": "Run",
+    "JUnit.Func_Test.scenario1Test.executor": "Run",
+    "JUnit.Func_Test.scenario2Test.executor": "Run",
     "JUnit.MainPage_Test.executor": "Run",
     "JUnit.MainPage_Test.mainPageTest.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Func_Test.mainPageTest">
+  <component name="RunManager" selected="JUnit.Func_Test.scenario2Test">
     <configuration name="Func_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="otus-hw1" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,8 +78,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Func_Test.scenario1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otus-hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Func_Test" />
+      <option name="METHOD_NAME" value="scenario1Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Func_Test.scenario2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="otus-hw1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Func_Test" />
+      <option name="METHOD_NAME" value="scenario2Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Func_Test.scenario2Test" />
+        <item itemvalue="JUnit.Func_Test.scenario1Test" />
         <item itemvalue="JUnit.Func_Test.mainPageTest" />
         <item itemvalue="JUnit.Func_Test" />
       </list>
@@ -101,12 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1756123569532</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added first test case">
+      <option name="closed" value="true" />
+      <created>1756215943371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756215943371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added driver and first test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="added driver and first test case" />
+    <MESSAGE value="added first test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added first test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -118,27 +150,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Func_Test.java</url>
-          <line>26</line>
+          <line>41</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Func_Test.java</url>
-          <line>27</line>
+          <line>42</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Func_Test.java</url>
-          <line>25</line>
+          <line>40</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java</url>
-          <line>126</line>
+          <line>63</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/pages/CatalogPage.java</url>
-          <line>127</line>
+          <line>64</line>
           <properties>
             <option name="lambda-ordinal" value="0" />
           </properties>

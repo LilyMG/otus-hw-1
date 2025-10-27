@@ -16,7 +16,7 @@ public class MainPage {
   private final Actions actions;
 
   private static final By MENU_LEARNINGS = By.xpath("//span[@title='Обучение']");
-  private static final By DROPDOWN_CATEGORIES = By.xpath("//a[contains(@href, '/categories/')]");
+  private static final By DROPDOWN_CATEGORIES = By.xpath("//a[contains(@link, '/categories/')]");
 
   @Inject
   public MainPage(WebDriver driver) {
