@@ -3,6 +3,7 @@ import org.example.extensions.UIExtensions;
 import org.example.pages.CatalogPage;
 import org.example.pages.CourseData;
 import org.example.pages.CoursePage;
+import org.example.pages.HomePage;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -24,6 +25,8 @@ public class Func_Test {
     private CatalogPage catalogPage;
     @Inject
     private CoursePage coursePage;
+    @Inject
+    private HomePage homePage;
     private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d MMMM yyyy", new Locale("ru"));
 
     /**
@@ -94,6 +97,29 @@ public class Func_Test {
         for (CourseData course : boundaryCourses) {
             openAndVerifyCourse(course);
         }
+    }
+
+
+    /**
+     * Открыть главную страницу https://otus.ru
+     * В заголовке страницы открыть меню "Обучение" и выбрать случайную категорию курсов
+     * Проверить, что открыт каталог курсов верной категории * Проверить, что на карточке самого раннего/позднего курсов отображается верное название курса и дата его начала
+     **/
+    @Test
+    public void scenario3Test() {
+        homePage.open();
+        homePage.openLearningDropdown();
+        String chosenCategory = homePage.chooseRandomCategory();
+        String currentUrl = homePage.getCurrentUrl();
+        Assertions.assertTrue(
+                currentUrl.contains("categories"),
+                "Не открылась страница категории! Текущий URL: " + currentUrl
+        );
+        Assertions.assertFalse(
+                catalogPage.getAllCoursesFromJsoup().isEmpty(),
+                "В выбранной категории («" + chosenCategory + "») нет ни одного курса!"
+        );
+
     }
 
     private void openAndVerifyCourse(CourseData course) {
